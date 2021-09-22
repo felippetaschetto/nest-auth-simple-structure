@@ -1,0 +1,23 @@
+1.
+npm i -g @nestjs/cli
+
+2.
+nest new nest-auth
+
+3.
+npm run start:dev
+
+4.
+nest g module auth
+
+5.
+nest g controller auth/auth
+
+6.
+nest g service auth/auth
+
+7.
+npm i bcrypt
+
+8.
+docker-compose up
